@@ -4,21 +4,19 @@ using UnityEngine;
 
 public class Fish : MonoBehaviour
 {
-    Rigidbody2D _rb;
-    [SerializeField]
-    private float _speed;
+    private Rigidbody2D _rb;
+    public float speed;
     int angle;
     int maxAngle = 20;
     int minAngle = -60;
-    // Start is called before the first frame update
+    
     void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
-        //_rb.gravityScale = -1;
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         FishSwim();
@@ -30,7 +28,7 @@ public class Fish : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             _rb.velocity = Vector2.zero;
-            _rb.velocity = new Vector2(_rb.velocity.x, _speed);
+            _rb.velocity = new Vector2(_rb.velocity.x, speed);
         }
     }
 
@@ -43,7 +41,7 @@ public class Fish : MonoBehaviour
                 angle = angle + 4;
             }
         }
-        else if (_rb.velocity.y < -1.2)
+        else if (_rb.velocity.y < -2.5f)
         {
             if (angle > minAngle)
             {
