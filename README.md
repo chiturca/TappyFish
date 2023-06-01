@@ -1,2 +1,2 @@
 # TappyFish
-Panteon Akademi first unity project (2D)
+Panteon Academy first Unity project (2D), uses C#
