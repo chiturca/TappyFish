@@ -286,6 +286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverPanel: {fileID: 809241017}
   GetReady: {fileID: 972867582}
+  score: {fileID: 1877507397}
 --- !u!4 &217124387
 Transform:
   m_ObjectHideFlags: 0
@@ -336,7 +337,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 157, y: 28}
+  m_AnchoredPosition: {x: 148, y: 30}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &232212438
@@ -1158,6 +1159,7 @@ GameObject:
   - component: {fileID: 1245107097}
   - component: {fileID: 1245107099}
   - component: {fileID: 1245107098}
+  - component: {fileID: 1245107100}
   m_Layer: 5
   m_Name: Medal
   m_TagString: Untagged
@@ -1223,6 +1225,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245107096}
   m_CullTransparentMesh: 1
+--- !u!114 &1245107100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245107096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4123f884067e32d4abfd2ad724fe8f25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  metalMedal: {fileID: 356760223, guid: 8cae7ab12d28c5941a478a08f821e35d, type: 3}
+  bronzeMedal: {fileID: -1926512717, guid: 8cae7ab12d28c5941a478a08f821e35d, type: 3}
+  silverMedal: {fileID: 224630591, guid: 8cae7ab12d28c5941a478a08f821e35d, type: 3}
+  goldMedal: {fileID: -604750850, guid: 8cae7ab12d28c5941a478a08f821e35d, type: 3}
 --- !u!1 &1274634671
 GameObject:
   m_ObjectHideFlags: 0
@@ -1489,7 +1507,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 157, y: -66}
+  m_AnchoredPosition: {x: 148, y: -64}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1508467466

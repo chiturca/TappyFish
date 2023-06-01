@@ -10,6 +10,9 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverPanel;
     public GameObject GetReady;
 
+    public static int gameScore;
+    public GameObject score;
+
     public static bool gameStarted;
     private void Awake()
     {
@@ -31,6 +34,9 @@ public class GameManager : MonoBehaviour
     {
         gameOver = true;
         gameOverPanel.SetActive(true);
+
+        score.SetActive(false);
+        gameScore = score.GetComponent<Score>().GetScore();
     }
 
     public void restartBtn()

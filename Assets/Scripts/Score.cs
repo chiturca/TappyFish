@@ -39,6 +39,11 @@ public class Score : MonoBehaviour
             New.SetActive(true);
         }
     }
+
+    public int GetScore()
+    {
+        return score;
+    }
     
     void Update()
     {
