@@ -101,6 +101,8 @@ public class Fish : MonoBehaviour
         {
             //game over
             FishDieEffect();
+
+            gameManager.GameOver();
         }
     }
 
