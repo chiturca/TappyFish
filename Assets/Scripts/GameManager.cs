@@ -17,10 +17,11 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         bottomLeft = Camera.main.ScreenToWorldPoint(new Vector2(0, 0));
+        gameOver = false;
     }
     void Start()
     {
-        gameOver = false;
+        
         gameStarted = false;
     }
 
@@ -43,6 +44,7 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
     void Update()
     {
         
