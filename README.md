@@ -57,6 +57,7 @@ Follow these instructions to set up the game on your local development environme
   - `` bash ~~ git clone https://github.com/chiturca/TappyFish.git ``
   - `` 1. Open Unity and select "Open Project." ``
   - `` 2. Browse to the project directory and open it. ``
+  - `` 3. Reach in to the Scenes folder, double click to the "Game" scene then it will open the game ``
 
 ## How to Play <a name="how-to-play"></a>
 1. Launch the game in Unity.
