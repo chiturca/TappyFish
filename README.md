@@ -48,7 +48,7 @@ Follow these instructions to set up the game on your local development environme
 
 ### Prerequisites <a name="prerequisites"></a>
 
-- **Unity:** Make sure you have Unity installed. This project was developed using Unity [version].
+- **Unity:** Make sure you have Unity installed. This project was developed using Unity 2021.3.25f1.
 
 ### Installation <a name="installation"></a>
 
