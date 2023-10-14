@@ -1,10 +1,11 @@
 # Tappy Fish - Unity 2D Game
 
+Welcome to Tappy Fish, a fun and challenging 2D game developed in Unity using C#. The game puts you in control of a fish that needs to navigate through obstacles, collecting points along the way. Dive into the underwater adventure and see how far you can go!
+
 https://github.com/chiturca/TappyFish/assets/113294105/80c4ab76-8b57-483b-b073-45bd4e0bcf81
 
 ## Table of Contents
 
-- [Introduction](#introduction)
 - [Game Overview](#game-overview)
 - [Features](#features)
 - [Gameplay](#gameplay)
@@ -19,9 +20,6 @@ https://github.com/chiturca/TappyFish/assets/113294105/80c4ab76-8b57-483b-b073-4
 - [Contributing](#contributing)
 - [License](#license)
 
-## Introduction <a name="introduction"></a>
-
-Welcome to Tappy Fish, a fun and challenging 2D game developed in Unity using C#. The game puts you in control of a fish that needs to navigate through obstacles, collecting points along the way. Dive into the underwater adventure and see how far you can go!
 
 ## Game Overview <a name="game-overview"></a>
 
